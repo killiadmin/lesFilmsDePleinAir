@@ -11611,19 +11611,26 @@ body {
   }
 }
 
-/* Conatct section */
+/* Contact section */
 .contact-section {
   padding-top: 120px;
   z-index: 990;
   position: relative;
   text-align: center;
   color: #fff;
-  background-image: url(../imgs/img_cinema_plein_air.jpeg);
   background-size: cover;
   background-position: bottom;
 }
 
-.contact-section .overlay {
+.contact-background {
+  background-image: url(../imgs/img_cinema_plein_air.jpeg);
+}
+
+.formulaire-background {
+  background-image: url(../imgs/cine-plein-air-header.jpg);
+}
+
+.contact-section .overlay{
   position: absolute;
   left: 0;
   top: 0;

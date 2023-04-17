@@ -17,8 +17,10 @@
     <nav class="page-navbar">
         <ul class="nav-navbar container">
             <li class="nav-item"><a href="index.html" class="nav-link">Acceuil</a></li>
+            <li class="nav-item"><a href="presentation.html" class="nav-link">Présentation</a></li>
             <li class="nav-item"><a href="liste_films.html" class="nav-link">Liste des films </a></li>
-            <li class="nav-item"><a href="formulaire.html" class="nav-link">M'incrire pour une séance</a></li>
+            <li class="nav-item"><a href="actualites.html" class="nav-link">Actualités</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
     </nav><!-- end of page navbar -->
 
@@ -29,44 +31,27 @@
         </div>
     </header><!-- end of page header -->
 
-    <!-- page container -->
-    <header>
-        
-    </header>
-    <div class="container page-container">
-        <div class="container">
+    <div class="contact-section formulaire-background">
+        <div class="overlay"></div>
             <div class="col-md-10 col-lg-8 m-auto">
                 <form action="" class="form-group title">
-                    <select class="form-control">
-                        <option value="">Choissisez votre séance que vous allez visionné</option>
-                        <option value="">Avatar - 17h45</option>
-                        <option value="">Fargo - 21h55</option>
-                        <option value="">Gravity - 1h30</option>
-                        <option value="">Princesse Mononoké - 14h35</option>
-                        <option value="">Titanic - 18h00</option>
-                        <option value="">Serious man - 2h00</option>
-                        <option value="">La haine - 15h00</option>
-                        <option value="">Le château dans le ciel - 22h00</option>
-                        <option value="">Les fils de l'homme - 22h00</option>
-                    </select>
-                    <select class="form-control">
-                        <option value="">Combien de personnes êtes-vous ?</option>
-                        <option value="">1 personne</option>
-                        <option value="">2 personnes</option>
-                        <option value="">3 personnes</option>
-                        <option value="">4 personnes</option>
-                        <option value="">5 personnes</option>
-                        <option value="">6 personnes</option>
-                        <option value="">7 personnes</option>
-                        <option value="">8 personnes</option>
-                        <option value="">9 personnes</option>
-                        <option value="">+10 personnes</option>
-                    </select>
+                    <input type="text" size="50" class="form-control" placeholder="Votre nom" required>
+                    <input type="text" size="50" class="form-control" placeholder="Votre prénom" required>
+                    <input type="text" size="50" class="form-control" placeholder="Votre date de naissance (JJ/MM/AAAA)" required>
+                    <p class="form-control">Qu'elle(s) soirée(s) choissisez vous?</p>
+                    <div class="container">
+                        <p>Samedi 5 août <input type="checkbox" size="50" required></p>
+                        <p>Dimanche 6 août <input type="checkbox" size="50" required></p>
+                        <p>Lundi 7 août  <input type="checkbox" size="50" required></p>
+                        <p>Mardi 8 août <input type="checkbox" size="50" required></p>
+                        
+
+                    </div>
+
                     <button class="btn btn-success">
                         Partager mon inscription
                     </button>
                 </form>
-            </div>    
     </div> 
     <!-- end of page container -->
     <!-- footer -->
