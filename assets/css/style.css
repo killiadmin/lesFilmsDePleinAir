@@ -11810,6 +11810,10 @@ body.dark-theme {
   .container-media{
     flex-direction: column-reverse !important;
   }
+
+  .link-movie .overlay{
+    display: none;
+  }
 }
 
 .container-presentation{
